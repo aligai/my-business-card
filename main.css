@@ -1,0 +1,133 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%
+  }
+
+
+.profile-card {
+  width: 500px;
+  max-width: calc(100vw - 10px);
+  padding: 1% 1%;
+}
+  
+  body {
+   font-family: "Tahoma";
+    align-items: center;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    color: #0576bc;
+  }
+  
+  h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+h2 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.head, .links {
+  text-align: center;
+  padding: 1% 1%;
+  margin: 0 auto;
+}
+
+.head, .content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+img {
+  width: 140px;
+  height: 160px;
+  border-radius: 10%;
+  padding: 2px;
+  background-color: #98adcb;
+  filter: grayscale(50%);
+  text-align: left;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(10%);
+}
+
+.profile-image {
+  margin-top: -30px;
+  padding: 5% 5%;
+}
+
+.from {
+  font-size: 15px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 5%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+body {
+  background: no-repeat center center fixed;
+  background-size: cover;
+  background-color: #b7c0d0;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 60px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: none;
+  color: #779ac6;
+}
+
+/*Linkedin*/
+
+.fa-linkedin {
+  background: none;
+  color: #779ac6;
+}
+
+/*Github*/ 
+
+.fa-github {
+  background: none;
+  color: #779ac6;
+}
